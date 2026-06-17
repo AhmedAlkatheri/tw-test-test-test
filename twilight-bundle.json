@@ -1,0 +1,14 @@
+{
+    "name": {
+        "ar": "test test test",
+        "en": "test test test"
+    },
+    "description": {
+        "ar": "",
+        "en": ""
+    },
+    "author_email": "ahmadalkatyri@gmail.com",
+    "support_url": "",
+    "repository": "https://github.com/AhmedAlkatheri/tw-test-test-test",
+    "components": []
+}
