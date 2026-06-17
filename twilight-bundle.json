@@ -10,5 +10,153 @@
     "author_email": "ahmadalkatyri@gmail.com",
     "support_url": "",
     "repository": "https://github.com/AhmedAlkatheri/tw-test-test-test",
-    "components": []
+    "components": [
+        {
+            "title": "منتجات على ذوقك",
+            "icon": "sicon-shopping-bag",
+            "name": "products-on-your-taste",
+            "key": "7ebf6f9e-4ed1-4bf6-a878-6c58393515e6",
+            "image": "",
+            "fields": [
+                {
+                    "id": "title",
+                    "type": "string",
+                    "format": "text",
+                    "label": "العنوان",
+                    "icon": "sicon-format-text-alt",
+                    "value": {
+                        "ar": "منتجات على ذوقك",
+                        "en": "Products For You"
+                    },
+                    "multilanguage": true,
+                    "required": true
+                },
+                {
+                    "id": "source",
+                    "type": "string",
+                    "format": "text",
+                    "label": "Source",
+                    "icon": "sicon-database",
+                    "value": "selected",
+                    "required": true
+                },
+                {
+                    "id": "source_value",
+                    "type": "string",
+                    "format": "textarea",
+                    "label": "Source Value",
+                    "icon": "sicon-list",
+                    "value": "[378518116,1812704498,381116901,832229535]",
+                    "required": true
+                },
+                {
+                    "id": "limit",
+                    "type": "string",
+                    "format": "text",
+                    "label": "Limit",
+                    "icon": "sicon-list",
+                    "value": "4",
+                    "required": true
+                }
+            ]
+        },
+        {
+            "title": "منتجات قد تعجبك",
+            "icon": "sicon-shopping-bag",
+            "name": "products-you-may-like",
+            "key": "4a3d67af-a0f6-4a7c-a7f9-25268fc3fc5a",
+            "image": "",
+            "fields": [
+                {
+                    "id": "title",
+                    "type": "string",
+                    "format": "text",
+                    "label": "العنوان",
+                    "icon": "sicon-format-text-alt",
+                    "value": {
+                        "ar": "منتجات قد تعجبك",
+                        "en": "Products You May Like"
+                    },
+                    "multilanguage": true,
+                    "required": true
+                },
+                {
+                    "id": "source",
+                    "type": "string",
+                    "format": "text",
+                    "label": "Source",
+                    "icon": "sicon-database",
+                    "value": "selected",
+                    "required": true
+                },
+                {
+                    "id": "source_value",
+                    "type": "string",
+                    "format": "textarea",
+                    "label": "Source Value",
+                    "icon": "sicon-list",
+                    "value": "[378518116,1812704498,381116901,832229535]",
+                    "required": true
+                },
+                {
+                    "id": "limit",
+                    "type": "string",
+                    "format": "text",
+                    "label": "Limit",
+                    "icon": "sicon-list",
+                    "value": "4",
+                    "required": true
+                }
+            ]
+        },
+        {
+            "title": "منتجات نرشحها لك",
+            "icon": "sicon-shopping-bag",
+            "name": "recommended-products",
+            "key": "49fbc8cd-2247-4b7f-9102-1a1f1360dfec",
+            "image": "",
+            "fields": [
+                {
+                    "id": "title",
+                    "type": "string",
+                    "format": "text",
+                    "label": "العنوان",
+                    "icon": "sicon-format-text-alt",
+                    "value": {
+                        "ar": "منتجات نرشحها لك",
+                        "en": "Recommended Products"
+                    },
+                    "multilanguage": true,
+                    "required": true
+                },
+                {
+                    "id": "source",
+                    "type": "string",
+                    "format": "text",
+                    "label": "Source",
+                    "icon": "sicon-database",
+                    "value": "selected",
+                    "required": true
+                },
+                {
+                    "id": "source_value",
+                    "type": "string",
+                    "format": "textarea",
+                    "label": "Source Value",
+                    "icon": "sicon-list",
+                    "value": "[378518116,1812704498,381116901,832229535]",
+                    "required": true
+                },
+                {
+                    "id": "limit",
+                    "type": "string",
+                    "format": "text",
+                    "label": "Limit",
+                    "icon": "sicon-list",
+                    "value": "4",
+                    "required": true
+                }
+            ]
+        }
+    ]
 }
